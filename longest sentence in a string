@@ -1,0 +1,4 @@
+sentence = input("enter a sentence:")
+sentence_list = sentence.split(".")
+length_of_sentence = [len(i) for i in sentence_list]
+print("the longest sentence is:",sentence_list[length_of_sentence.index(max(length_of_sentence))])
