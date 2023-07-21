@@ -1,0 +1,4 @@
+import math
+y=8
+y=math.sqrt(x)
+print(y)
