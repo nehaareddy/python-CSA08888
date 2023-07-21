@@ -1,0 +1,5 @@
+s=input("enter a string:")
+sent=s.split()
+sen=sent[::-1]
+reverse=" ".join(sen)
+print("reversed string is:",sen)
